@@ -1,0 +1,66 @@
+
+/* body, html {
+    height: 100%;
+} */
+body {
+    background-color: black;
+  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 10px;
+    background-color: white;
+    margin: 300px auto;
+    width: 80%;
+
+}
+
+.content {
+    width: 150px;
+    margin-left: 15px;
+    font-size: 12px;
+    
+}
+
+.content h5 {
+    font-size: 15px;
+}
+
+#text-bg{
+    background-color: #fef8f2;
+    border: 1px solid #ea894b;
+    border-radius: 5px;
+    /* width: 100%; */
+    /* padding: 10px; */
+
+
+}
+
+.text {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.text > * {
+    margin: 0;
+
+}
+.price {
+    color: #7f8088;
+}
+
+.desc {
+    color: #317eca;
+    margin: 0;
+}
+.clred{
+    color: #b23932;
+}
+i {
+    color: #f6ad53;
+}
